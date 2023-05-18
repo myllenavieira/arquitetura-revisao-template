@@ -1,0 +1,11 @@
+GET http://localhost:3003/brands
+
+###
+
+POST http://localhost:3003/brands
+Content-Type: application/json
+
+{
+    "id": "b004",
+    "name": "Lenovo"
+}
